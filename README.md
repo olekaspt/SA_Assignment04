@@ -3,7 +3,7 @@
 
 0) Read this assignment all the way through and make your estimate on amount of work for your over-arching assignment.
 
-1) Refactor the repo XXXXXX to go from one mega library, called BlobLibrary into several libraries.
+1) Refactor the repo https://github.com/olekaspt/LibraryRefactor to go from one mega library, called BlobLibrary into several libraries.
 
 Somethings worth pointing out, I didn't put library exports on all classes, as the blob library doesn't need it.  But if we break this up, we may need to add them (you have been warned).
 
