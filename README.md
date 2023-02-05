@@ -1,1 +1,33 @@
 # SA_Assignment04
+
+
+0) Read this assignment all the way through and make your estimate on amount of work for your over-arching assignment.
+
+1) Refactor the repo XXXXXX to go from one mega library, called BlobLibrary into several libraries.
+
+(REPORT) Describe your new library structure?  (hint you can make a graph using VS as I showed during class).  Defend your opinion on breakup.
+
+
+2) Make a copy of repo https://github.com/olekaspt/GmockExamples
+
+Add in your "real" world System Under Test (SUT) class, as well Collaborator class.  Implement a method on the SUT class that will utlize the collbaborator class.
+
+Now using the GMOCK, properly mock out the collbaborator.  And then write two UnitTests to test the SUT method.
+
+(REPORT) Describe your SUT class, collaborator class, and SUT class method.   What is the value of using mock for unit testing?
+
+
+
+.	Perform  Evaluation of team members
+Participation rubric of teammates.  List out for your all team members how much they participated.  This will go into your Lab report.
+```
+	             Member1	Member2	
+Member1 (opinion)	55	     45
+Member2 (opinion)	50	     50
+```			
+
+## Rubric
+* 20% readability and format 
+* 60% GMOCK example and LIbrary break up code.
+* 20% Report.  Items prefaced with (REPORT) are items that should be in PDF report as well as peer review.
+
