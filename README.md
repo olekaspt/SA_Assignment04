@@ -27,7 +27,7 @@ Now using the GMOCK, properly mock out the collbaborator.  And then write two Un
 
 
 
-.	Perform  Evaluation of team members
+(REPORT) Perform  Evaluation of team members
 Participation rubric of teammates.  List out for your all team members how much they participated.  This will go into your Lab report.
 ```
 	             Member1	Member2	
