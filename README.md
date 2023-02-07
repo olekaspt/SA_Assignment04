@@ -40,3 +40,7 @@ Member2 (opinion)	50	     50
 * 60% GMOCK example and LIbrary break up code.
 * 20% Report.  Items prefaced with (REPORT) are items that should be in PDF report as well as peer review.
 
+# Submission
+* PDF of Report
+* Zip of your code submissions of the library breakup, as well as the GMOCk example.  You can do one or two zips.
+
