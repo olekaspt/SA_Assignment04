@@ -33,10 +33,12 @@ Participation rubric of teammates.  List out for your all team members how much 
 	             Member1	Member2	
 Member1 (opinion)	55	     45
 Member2 (opinion)	50	     50
-```			
+```
+
+  Discuss how much time spent vs the estimate.  And if the estimate was missed, reasons why it was missed.
 
 ## Rubric
-* 20% readability and format 
+* 20% readability and format, and you estimate and analysis of your how you did on your work.
 * 60% GMOCK example and LIbrary break up code.
 * 20% Report.  Items prefaced with (REPORT) are items that should be in PDF report as well as peer review.
 
