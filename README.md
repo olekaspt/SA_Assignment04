@@ -5,13 +5,13 @@
 
 1) Refactor the repo https://github.com/olekaspt/LibraryRefactor to go from one mega library, called BlobLibrary into several libraries.
 
-Somethings worth pointing out, I didn't put library exports on all classes, as the blob library doesn't need it.  But if we break this up, we may need to add them (you have been warned).
+* Somethings worth pointing out, I didn't put library exports on all classes, as the blob library doesn't need it.  But if we break this up, we may need to add them (you have been warned).
 
-All library exports shoudl go into their own seperate header file (see BlobExports.h) and shoudl be named appropiately.
+*  All library exports shoudl go into their own seperate header file (see BlobExports.h) and shoudl be named appropiately.
 
-MyApplication1 and MyApplication2 do entirely different things with different classes and functionality.
+*  MyApplication1 and MyApplication2 do entirely different things with different classes and functionality.
 
-Business Intelligence is a utilty home grown, and uses some classes needed in Core.
+* Business Intelligence is a utilty home grown, and uses some classes needed in Core.
 
 
 (REPORT) Describe your new library structure?  (hint you can make a graph using VS as I showed during class).  Defend your opinion on breakup.
