@@ -7,11 +7,13 @@
 
 * Somethings worth pointing out, I didn't put library exports on all classes, as the blob library doesn't need it.  But if we break this up, we may need to add them (you have been warned).
 
-*  All library exports shoudl go into their own seperate header file (see BlobExports.h) and shoudl be named appropiately.
+* All library exports should go into their own seperate header file (see BlobExports.h) and should be named appropiately.
 
-*  MyApplication1 and MyApplication2 do entirely different things with different classes and functionality.
+* MyApplication1 and MyApplication2 do entirely different things with different classes and functionality.
 
 * Business Intelligence is a utilty home grown, and uses some classes needed in Core.
+* You should make at least three libraries at a minimum. (core\system, application, and User Interface).  But that said feel free to make more.
+* In addition, I want you to make a UnitTest library as well.  I want you to test the combineString method I made.  I want three tests that will test all three code blocks.  I also want you to use a test fixture for the two strings to pass in (this is not the greatest use).  But in the Setup assign the values to these static values.  And in the TearDown set the values to the empty.
 
 
 (REPORT) Describe your new library structure?  (hint you can make a graph using VS as I showed during class).  Defend your opinion on breakup.
@@ -25,7 +27,7 @@ Now using the GMOCK, properly mock out the collbaborator.  And then write two Un
 
 (REPORT) Describe your SUT class, collaborator class, and SUT class method.   What is the value of using mock for unit testing?
 
-
+3) Evaluate how much time you spent vs your estimate.
 
 (REPORT) Perform  Evaluation of team members
 Participation rubric of teammates.  List out for your all team members how much they participated.  This will go into your Lab report.
