@@ -14,10 +14,10 @@ Notes:
 * MyApplication1 and MyApplication2 do entirely different things with different classes and functionality.
 * Business Intelligence is a utilty home grown, and uses some classes needed in Core.
 
-The library structure starts off as :
+The library structure starts off as the executable depending on library:
 ![Before](https://github.com/olekaspt/SA_Assignment04/blob/main/Before.png)
 
-The library structure ends off as :
+But after you split up the BlobLibrary into three seperate libraries, and kill BlobLibrary.  You will have a library structure ends off as :
 ![After](https://github.com/olekaspt/SA_Assignment04/blob/main/After.png)
 
 Deliverable 
