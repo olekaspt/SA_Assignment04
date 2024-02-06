@@ -14,6 +14,10 @@ Notes:
 * MyApplication1 and MyApplication2 do entirely different things with different classes and functionality.
 * Business Intelligence is a utilty home grown, and uses some classes needed in Core.
 
+The library structure starts off as :
+![Before](https://github.com/olekaspt/SA_Assignment04/edit/main/README.md)?raw=true)
+
+
 Delivarble 
 * You should make at least three libraries at a minimum. (core\system, application, and User Interface).  But that said feel free to make more.
 * In addition, I want you to make a UnitTest library as well.  I want you to test the combineString method I made.  I want three tests that will test all three code blocks.  I also want you to use a test fixture for the two strings to pass in (this is not the greatest use).  But in the Setup assign the values to these static values.  And in the TearDown set the values to the empty.  (see https://learn.microsoft.com/en-us/visualstudio/test/microsoft-visualstudio-testtools-cppunittestframework-api-reference?view=vs-2022#Initialize_and_cleanup)
