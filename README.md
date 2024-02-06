@@ -20,14 +20,14 @@ The library structure starts off as :
 The library structure ends off as :
 ![After](https://github.com/olekaspt/SA_Assignment04/blob/main/After.png)
 
-Delivarble 
+Deliverable 
 * You should make at least three libraries at a minimum. (core\system, application, and User Interface).  But that said feel free to make more.
 * In addition, I want you to make a UnitTest library as well.  I want you to test the combineString method I made.  I want three tests that will test all three code blocks.  I also want you to use a test fixture for the two strings to pass in (this is not the greatest use).  But in the Setup assign the values to these static values.  And in the TearDown set the values to the empty.  (see https://learn.microsoft.com/en-us/visualstudio/test/microsoft-visualstudio-testtools-cppunittestframework-api-reference?view=vs-2022#Initialize_and_cleanup)
 
 
 (REPORT) Describe your new library structure and graph it.  (hint you can make a graph using VS as I showed during class).  Defend your opinion on breakup.
 
-
+Mocks.
 2) Make a copy of repo https://github.com/olekaspt/GmockExamples
 
 Add in your "real" world System Under Test (SUT) class, as well Collaborator class.  Implement a method on the SUT class that will utlize the collbaborator class.
@@ -55,5 +55,5 @@ Member2 (opinion)	50	     50
 
 # Submission
 * PDF of Report
-* Zip of your code submissions of the library breakup, as well as the GMOCk example.  You can do one or two zips.
+* Zips of your code submissions of the library breakup, as well as the GMOCk example.  You can do one or two zips.
 
