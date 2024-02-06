@@ -15,7 +15,7 @@ Notes:
 * Business Intelligence is a utilty home grown, and uses some classes needed in Core.
 
 The library structure starts off as :
-![Before](https://github.com/olekaspt/SA_Assignment04/Before.png)
+![Before](https://github.com/olekaspt/SA_Assignment04/main/Before.png)
 
 The library structure ends off as :
 ![After](https://github.com/olekaspt/SA_Assignment04/edit/main/After.png)
