@@ -18,7 +18,7 @@ The library structure starts off as :
 ![Before](https://github.com/olekaspt/SA_Assignment04/blob/main/Before.png)
 
 The library structure ends off as :
-![After](https://github.com/olekaspt/SA_Assignment04/edit/main/After.png)
+![After](https://github.com/olekaspt/SA_Assignment04/blob/main/After.png)
 
 Delivarble 
 * You should make at least three libraries at a minimum. (core\system, application, and User Interface).  But that said feel free to make more.
