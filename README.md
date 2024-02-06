@@ -14,7 +14,7 @@ Notes:
 * MyApplication1 and MyApplication2 do entirely different things with different classes and functionality.
 * Business Intelligence is a utilty home grown, and uses some classes needed in Core.
 
-Final state
+Delivarble 
 * You should make at least three libraries at a minimum. (core\system, application, and User Interface).  But that said feel free to make more.
 * In addition, I want you to make a UnitTest library as well.  I want you to test the combineString method I made.  I want three tests that will test all three code blocks.  I also want you to use a test fixture for the two strings to pass in (this is not the greatest use).  But in the Setup assign the values to these static values.  And in the TearDown set the values to the empty.  (see https://learn.microsoft.com/en-us/visualstudio/test/microsoft-visualstudio-testtools-cppunittestframework-api-reference?view=vs-2022#Initialize_and_cleanup)
 
@@ -28,7 +28,7 @@ Add in your "real" world System Under Test (SUT) class, as well Collaborator cla
 
 Now using the GMOCK, properly mock out the collbaborator.  And then write two UnitTests to test the SUT method.
 
-(REPORT) Describe your SUT class, collaborator class, and SUT class method.   What is the value of using mock for unit testing?
+(REPORT) Describe your SUT class, collaborator class, and SUT test method.   What is the value of using mock for unit testing?
 
 3) Evaluate how much time you spent vs your estimate.
 
