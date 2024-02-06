@@ -1,22 +1,25 @@
 # SA_Assignment04
 
+Goal of this is to practive making libraries, splitting apart existing librries, making a unit test, setting up a fixture, and finally making a mock using GMock.
 
 0) Read this assignment all the way through and make your estimate on amount of work for your over-arching assignment.
 
-1) Refactor the repo https://github.com/olekaspt/LibraryRefactor to go from one mega library, called BlobLibrary into several libraries.
+1) Refactor the repo https://github.com/olekaspt/LibraryRefactor to go from one mega library, called BlobLibrary into at least three libraries.
 
+Notes:
 * Somethings worth pointing out, I didn't put library exports on all classes, as the blob library doesn't need it.  But if we break this up, we may need to add them (you have been warned).
-
+* At the end of the assignment BlobLibrary shoudl be deleted as it won't be needed.
 * All library exports should go into their own seperate header file (see BlobExports.h) and should be named appropiately.
-
+* I'd highly suggest starting by splitting one library out one at a time, starting at the top UI, or bottom (core\system)
 * MyApplication1 and MyApplication2 do entirely different things with different classes and functionality.
-
 * Business Intelligence is a utilty home grown, and uses some classes needed in Core.
+
+Final state
 * You should make at least three libraries at a minimum. (core\system, application, and User Interface).  But that said feel free to make more.
-* In addition, I want you to make a UnitTest library as well.  I want you to test the combineString method I made.  I want three tests that will test all three code blocks.  I also want you to use a test fixture for the two strings to pass in (this is not the greatest use).  But in the Setup assign the values to these static values.  And in the TearDown set the values to the empty.
+* In addition, I want you to make a UnitTest library as well.  I want you to test the combineString method I made.  I want three tests that will test all three code blocks.  I also want you to use a test fixture for the two strings to pass in (this is not the greatest use).  But in the Setup assign the values to these static values.  And in the TearDown set the values to the empty.  (see https://learn.microsoft.com/en-us/visualstudio/test/microsoft-visualstudio-testtools-cppunittestframework-api-reference?view=vs-2022#Initialize_and_cleanup)
 
 
-(REPORT) Describe your new library structure?  (hint you can make a graph using VS as I showed during class).  Defend your opinion on breakup.
+(REPORT) Describe your new library structure and graph it.  (hint you can make a graph using VS as I showed during class).  Defend your opinion on breakup.
 
 
 2) Make a copy of repo https://github.com/olekaspt/GmockExamples
