@@ -2,6 +2,10 @@
 
 Goal of this is to practive making libraries, splitting apart existing librries, making a unit test, setting up a fixture, and finally making a mock using GMock.
 
+For a working example of a shared libaries you can check out :
+* https://github.com/olekaspt/LibraryTypeExamples
+* https://github.com/olekaspt/SoftwareArchitectureCLassApplication
+
 0) Read this assignment all the way through and make your estimate on amount of work for your over-arching assignment.
 
 1) Refactor the repo https://github.com/olekaspt/LibraryRefactor to go from one mega library, called BlobLibrary into at least three libraries.
