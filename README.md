@@ -13,7 +13,22 @@ For a working example of a shared libaries you can check out :
 Notes:
 * Somethings worth pointing out, I didn't put library exports on all classes, as the blob library doesn't need it.  But if we break this up, we may need to add them (you have been warned).
 * At the end of the assignment BlobLibrary shoudl be deleted as it won't be needed.
-* All library exports should go into their own seperate header file (see BlobExports.h) and should be named appropiately.
+* All library exports Macros should go into their own seperate header file (see BlobExports.h) and should be named appropiately.  The export macros is this part
+```cpp
+#pragma once
+
+// The following ifdef block is the standard way of creating macros which make exporting
+// from a DLL simpler. All files within this DLL are compiled with the BLOBLIBRARY_EXPORTS
+// symbol defined on the command line. This symbol should not be defined on any project
+// that uses this DLL. This way any other project whose source files include this file see
+// BLOBLIBRARY_API functions as being imported from a DLL, whereas this DLL sees symbols
+// defined with this macro as being exported.
+#ifdef BLOBLIBRARY_EXPORTS
+#define BLOBLIBRARY_API __declspec(dllexport)
+#else
+#define BLOBLIBRARY_API __declspec(dllimport)
+#endif
+```
 * I'd highly suggest starting by splitting one library out one at a time, starting at the top UI, or bottom (core\system)
 * MyApplication1 and MyApplication2 do entirely different things with different classes and functionality.
 * Business Intelligence is a utilty home grown, and uses some classes needed in Core.
